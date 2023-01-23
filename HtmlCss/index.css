@@ -33,30 +33,49 @@ nav a:hover  {
     text-decoration: underline;
 }
 
-main {
-    width: 940px;
-    margin: 0 auto;
+#banner {
+    width: 100%;
 }
 
-form {
-    margin: 40px 0;
+.principal{
+    background-color: #CCCCCC;
+    padding: 30px;
 }
 
-form label, form p {
-    display: block;
+.titulo-centralizado {
+    text-align: center;
+} 
+
+p {
+    text-align: center;
+}
+
+#missao {
     font-size: 20px;
-    margin: 0 0 10px;
 }
 
-.input-padrao {
-    display: block;
-    margin: 0 0 20px;
-    padding: 10px 25px;
+em strong{
+    color: #FF0000;
+}
+
+.itens{
+    font-style: italic;
+}
+
+.beneficios{
+    background: #FFFFFF;
+    padding: 20px;
+}
+
+.beneficios ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagembeneficios{
     width: 50%;
-}
-
-.checkbox {
-    margin: 20px 0;
 }
 
 footer {
